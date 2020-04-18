@@ -1,0 +1,23 @@
+.fade-enter-active, .fade-leave-active {
+    transition: opacity 0.1s ease-in-out;
+}
+
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+.slide-enter-active, .slide-leave-active {
+    transition: margin 0.2s ease-in-out;
+}
+
+.slide-enter, .slide-leave-to {
+  margin-left: -100%;
+}
+
+.list-enter-active, .list-leave-active {
+  transition: all 0.3s;
+}
+.list-enter, .list-leave-to{
+  opacity: 0;
+  transform: translateX(100%);
+}

@@ -1,0 +1,52 @@
+.app-topBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 2.5vh 2vw;
+    background: #fff;
+
+    &__left, &__center, &__right{
+        display: flex;
+        align-items: center;
+        width: 33.33%;
+    }
+
+    &__left{
+
+        i{
+            margin-right: 2rem;
+        }
+
+        h3{
+            font-weight: 400;
+            margin:0;
+        }
+    }
+
+    &__center{
+        justify-content: center;
+    }
+
+    &__right{
+        justify-content: flex-end;
+
+        .btn-ico{
+            margin-left: 0.5vw;
+        }
+    }
+
+    .app-logo{
+        width: 1.5vw;
+        cursor: pointer;
+
+        img{
+            display: block;
+            width: 100%;
+        }
+    }
+
+    .btn-logout{
+        color: #D32F2F;
+    }
+}
